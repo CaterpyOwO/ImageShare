@@ -1,0 +1,31 @@
+{
+  "name": "imagebot",
+  "version": "1.2.0",
+  "description": "A discord bot that uploads images to is-inside.me",
+  "main": "image.js",
+  "scripts": {
+    "test": "node image.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaterpyOwO/ImageBot.git"
+  },
+  "keywords": [
+    "image",
+    "bot",
+    "discord",
+    "is-inside.me",
+    "upload"
+  ],
+  "author": "Caterpy#4768",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CaterpyOwO/ImageBot/issues"
+  },
+  "homepage": "https://github.com/CaterpyOwO/ImageBot#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "download": "^7.1.0",
+    "glob": "^7.1.4"
+  }
+}
