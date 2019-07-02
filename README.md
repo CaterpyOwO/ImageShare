@@ -1,7 +1,7 @@
 # ImageShare
 ImageShare discord bot's sourcecode
 
-[![Discord](https://discordapp.com/api/guilds/194170124859736065/widget.png)](https://discord.gg/wGbNwKc)
+[![Discord](https://discordapp.com/api/guilds/580700722211848192/widget.png)](https://discord.gg/wGbNwKc)
 
 ### How to setup:
 
