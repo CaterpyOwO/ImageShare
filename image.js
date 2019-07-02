@@ -30,7 +30,7 @@ bot.once('ready', () => {
 bot.on('message', msg => {
         if (!msg.content.startsWith(prefix) || msg.author.bot) return
 
-        const input_command = msg.content.slice(prefix.length).split(/ +/).shift().toLowerCase()
+        let input_command = msg.content.slice(prefix.length).split(/ +/).shift().toLowerCase()
 
         if (commands[input_command] === undefined) return
 

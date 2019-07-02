@@ -30,9 +30,6 @@ module.exports = {
 
     let image = await download(link, `./image/`, {filename: fname})
     
-
-
-    
     let curl = child.exec(`curl --header "key: ${config.key}" -X POST -F 'file=@./image/${fname}' ${config.host}`)
     
     curl.stdout.on("data", function(data) {

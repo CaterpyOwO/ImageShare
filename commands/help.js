@@ -11,7 +11,7 @@ module.exports = {
          .addField("Links:", "Support server: [OwO](https://discord.gg/wGbNwKc)\nInvite: [UwU](https://discordapp.com/api/oauth2/authorize?client_id=587072484856168455&permissions=51200&redirect_uri=http%3A%2F%2Fcaterpy.tk%2FgdmTest&scope=bot)\nGIthub repo: [UwO](https://github.com/CaterpyOwO/ImageShare)")
          .setFooter("Thanks to is-inside.me")
 
-         msg.channel.send(x)
+         return msg.channel.send(x)
 
     }
 }
