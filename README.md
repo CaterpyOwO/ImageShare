@@ -21,4 +21,15 @@ ImageShare discord bot's sourcecode
 
 6. Finally, choose the prefix you want for your bot
 
+# Your `config.json` should look like this:
+
+```
+{
+    "prefix": "#",
+    "token": "someextremelysecrettokengeneratedfromthediscorddeveloperporta",
+    "key": "thekeyyougotonis-inside.me",
+    "host": "https://caterpy.is-inside.me/upload"
+}
+```
+
 ### You're done! now you can use your discord bot as you please
