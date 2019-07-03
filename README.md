@@ -21,7 +21,7 @@ ImageShare discord bot's sourcecode
 
 6. Finally, choose the prefix you want for your bot
 
-# Your `config.json` should look like this:
+### Your `config.json` should look like this:
 
 ```
 {
