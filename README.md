@@ -28,7 +28,7 @@ ImageShare discord bot's sourcecode
     "prefix": "#",
     "token": "someextremelysecrettokengeneratedfromthediscorddeveloperporta",
     "key": "thekeyyougotonis-inside.me",
-    "host": "https://caterpy.is-inside.me/upload"
+    "host": "https://subdomain-you-chose.is-inside.me/upload"
 }
 ```
 
