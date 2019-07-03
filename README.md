@@ -32,8 +32,7 @@ ImageShare discord bot's sourcecode
 }
 ```
 
-Now you just need to execute the main process uso
-ing node:
+Now you just need to execute the main process using node:
 
 ```node image.js```
 
