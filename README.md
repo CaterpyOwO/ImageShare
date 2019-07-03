@@ -32,4 +32,9 @@ ImageShare discord bot's sourcecode
 }
 ```
 
+Now you just need to execute the main process uso
+ing node:
+
+```node image.js```
+
 ### You're done! now you can use your discord bot as you please
