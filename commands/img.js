@@ -12,7 +12,7 @@ module.exports = {
 
     if (attachments[0] == undefined && msg.content == "") return msg.channel.send("Please send a image/link")
     
-    if (!msg.content.includes(" ") && msg.content.startsWith("http") && (msg.content.endsWith(".jpg")||msg.content.endsWith(".jpeg")||msg.content.endsWith(".png"))) link = msg.content
+    if (!msg.content.includes(" ") && msg.content.startsWith("http") && (msg.content.endsWith(".jpg")||msg.content.endsWith(".jpeg")||msg.content.endsWith(".png")||msg.content.endsWith(".gif"))) link = msg.content
     else link = attachments[0]
 
     async function ran(){
