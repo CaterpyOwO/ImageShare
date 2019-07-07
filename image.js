@@ -31,6 +31,8 @@ bot.on('message', msg => {
         if (!msg.content.startsWith(prefix) || msg.author.bot) return
 
         let input_command = msg.content.slice(prefix.length).split(/ +/).shift().toLowerCase()
+        
+        if (input_command == "img") input_command = "isinside"
 
         if (commands[input_command] === undefined) return
 
